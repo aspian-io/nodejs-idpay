@@ -1,4 +1,13 @@
 <div align="center">
+  <img src="https://img.shields.io/npm/v/@aspianet/idpay">
+  <img src="https://img.shields.io/github/issues-raw/aspian-io/nodejs-idpay">
+  <img src="https://img.shields.io/npm/l/@aspianet/idpay">
+  <img src="https://img.shields.io/npm/types/@aspianet/idpay">
+</div>
+
+<br>
+
+<div align="center">
   <img align="center" src="https://user-images.githubusercontent.com/5561368/153906136-a4763186-ac81-4764-ad3e-262220b47480.png">
   <br/>
   <div align="center">Created by ASPIANET - Omid Rouhani</div>
