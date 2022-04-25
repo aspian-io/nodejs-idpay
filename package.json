@@ -1,6 +1,6 @@
 {
   "name": "@aspianet/idpay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "بسته توسعه نرم افزاری یا اس‌دی‌کی آیدی‌پی برای استفاده در محیط نودجی‌اس به همراه جاوااسکریپت یا تایپ‌اسکریپت",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
