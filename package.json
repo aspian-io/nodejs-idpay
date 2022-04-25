@@ -1,0 +1,40 @@
+{
+  "name": "@aspianet/idpay",
+  "version": "1.0.0",
+  "description": "بسته توسعه نرم افزاری یا اس‌دی‌کی آیدی‌پی برای استفاده در محیط نودجی‌اس به همراه جاوااسکریپت یا تایپ‌اسکریپت",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
+  "scripts": {
+    "clean": "del ./build/*",
+    "build": "npm run clean && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aspian-io/nodejs-idpay.git"
+  },
+  "keywords": [
+    "IDPay",
+    "idpay",
+    "آیدی‌پی",
+    "پرداخت‌یار",
+    "nodejs-idpay",
+    "npm-idpay"
+  ],
+  "author": "Omid Rouhani <o.rohani@gmail.com> (https://github.com/aspian-io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aspian-io/nodejs-idpay/issues",
+    "email": "o.rohani@gmail.com"
+  },
+  "homepage": "https://github.com/aspian-io/nodejs-idpay#readme",
+  "devDependencies": {
+    "del-cli": "^4.0.1",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
