@@ -53,7 +53,7 @@ declare class IDPay {
      * @returns - The result which contains transaction status info that is a promise of type {@link IInquiryTransactionResult}
      * @see Also checkout {@link https://idpay.ir/web-service/v1.1/index.html#2c4c448629 API Reference}
      */
-    inquiryTransaction(params: IInquiryTransactionParams): Promise<IInquiryTransactionResult>;
+    inquireTransaction(params: IInquiryTransactionParams): Promise<IInquiryTransactionResult>;
     /**
      *
      * Get list of IDPay transactions

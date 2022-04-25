@@ -113,7 +113,7 @@ class IDPay {
      * @returns - The result which contains transaction status info that is a promise of type {@link IInquiryTransactionResult}
      * @see Also checkout {@link https://idpay.ir/web-service/v1.1/index.html#2c4c448629 API Reference}
      */
-    inquiryTransaction(params) {
+    inquireTransaction(params) {
         return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
             var _a, _b;
             try {
