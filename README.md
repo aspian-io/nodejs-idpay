@@ -60,7 +60,7 @@ idPay.init( "کلید-API" );
 ```ts
 import { idPay } from '@aspianet/idpay';
 
-const transaction = idPay.createTransaction( {
+const transaction = await idPay.createTransaction( {
       order_id: '101',
       amount: 10000,
       name: 'امید روحانی',
@@ -99,7 +99,7 @@ const transaction = idPay.createTransaction( {
 ```ts
 import { idPay } from '@aspianet/idpay';
 
-const verifiedTransaction = idPay.verifyTransaction( {
+const verifiedTransaction = await idPay.verifyTransaction( {
     id: 'd2e353189823079e1e4181772cff5292',
     order_id: '101',
   } );
@@ -123,7 +123,7 @@ const verifiedTransaction = idPay.verifyTransaction( {
 ```ts
 import { idPay } from '@aspianet/idpay';
 
-const info = idPay.inquireTransaction( {
+const info = await idPay.inquireTransaction( {
     id: 'd2e353189823079e1e4181772cff5292',
     order_id: '101',
   } );
@@ -140,7 +140,7 @@ const info = idPay.inquireTransaction( {
 ```ts
 import { idPay } from '@aspianet/idpay';
 
-const result = idPay.listTransactions( {
+const result = await idPay.listTransactions( {
   page: 0,
   page_size: 25,
   id: "e22952579725883bbad9f8fa429134bf",
